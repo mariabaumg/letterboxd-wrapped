@@ -1,0 +1,6 @@
+Flask
+pandas
+numpy
+tmdbv3api
+gunicorn
+python-dotenv
