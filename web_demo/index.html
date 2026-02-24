@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Movie Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Monthly Movie Recommender</h1>
+
+    <label for="monthDropdown">Choose a month:</label>
+    <select id="monthDropdown">
+        <!-- Months will be populated by JS -->
+    </select>
+    <button id="getRecommendationsBtn">Get Recommendations</button>
+    <button id="getWatchedBtn">Show Watched Movies</button>
+
+    <h2>Movies</h2>
+    <div id="moviesContainer"></div>
+    <div id="loading" style="display:none;">Loading...</div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
