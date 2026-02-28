@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monthly Movie Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Monthly Movie Recommender</h1>
+
+    <label for="monthDropdown">Choose a month:</label>
+    <select id="monthDropdown"></select>
+    <button id="getRecommendationsBtn">Get Recommendations</button>
+    <button id="getWatchedBtn">Show Watched Movies</button>
+
+    <div id="loading-message">Loading...</div>
+    <h2>Movies</h2>
+    <div id="moviesContainer">
+        <div id="welcome-message" class="welcome">
+            <h2>Welcome to Monthly Movie Recommender!</h2>
+            <p>Select a month from the dropdown above and click "Get Recommendations" to see personalized suggestions.</p>
+            <p>Click "Show Watched Movies" to see what was watched in a particular month.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
