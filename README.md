@@ -1,16 +1,22 @@
 # Letterboxd Wrapped – Monthly Movie Recommender
 
-This is a Flask app that shows your watched movies and gives movie recommendations each month based on your viewing habits.
+This project is a monthly movie recommender built from personal Letterboxd data. It exists in two versions:
+1. **Flask App** – dynamic app with machine learning recommendations, deployed on Render.  
+2. **Static Version** – static site with machine learning recommendations preprocessed and stored in JSON file, deployed on **GitHub Pages**.
 
 ## Live Demo
 
-Check out the live app here: [https://letterboxd-wrapped-1.onrender.com/](https://letterboxd-wrapped-1.onrender.com/)
+- **Static GitHub Pages Site: (Recommended)** [https://mariabaumg.github.io/letterboxd-wrapped/](https://mariabaumg.github.io/letterboxd-wrapped/letterboxd-wrapped/)  
+- **Dynamic Flask App:** [https://letterboxd-wrapped-1.onrender.com/](https://letterboxd-wrapped-1.onrender.com/)  
+
 
 ## Project Overview & Goals
 
-This project was made to emulate spotify wrapped for letterboxd. Check out '/streamlit_app' for early data exploration/project beginnings.
+This project was made to emulate Spotify Wrapped for Letterboxd. Check out '/streamlit_app' for early data exploration/project beginnings.
 
 This project uses my own letterboxd data to generate monthly movie suggestions based on viewing behavior via **machine learning techniques**. A key **goal for future development** is to allow users to **upload their own CSVs**, making the app fully personalized for any user’s movie history.  
+
+The **static GitHub Pages site** provides a lightweight alternative to the Flask app, offering JSON-based recommendations and movie browsing without requiring server-side computation. It’s ideal for fast access, easy sharing, or offline-like browsing.
 
 ## Features & Highlights
 
